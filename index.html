@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Address Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afbebc8cbf.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+</head>
+<body>
+    <header>
+        <div class="page-heading">
+            <h1>IP Address Tracker</h1>
+        </div>
+        <div class="search-bar">
+            <div class="search-bar-input">
+                <input type="search" placeholder="Search for any IP address or domain">
+            </div>
+            <div class="search-bar-icon">
+                <span><i class="fas fa-angle-right"></i></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="display-info">
+            <div class="ip-address">
+                <div class="di-description">
+                    <span>IP Address</span>
+                </div>
+                <div class="di-value">
+                    192.212.157.412
+                </div>
+            </div>
+            <div class="location">
+                <div class="di-description">
+                    <span>Location</span>
+                </div>
+                <div class="di-value">
+                    Brooklyn, NY 100001
+                </div>
+            </div>
+            <div class="timezone">
+                <div class="di-description">
+                    <span>Timezone</span>
+                </div>
+                <div class="di-value">
+                    UTC-05:00
+                </div>
+            </div>
+            <div class="isp">
+                <div class="di-description">
+                    <span>ISP</span>
+                </div>
+                <div class="di-value">
+                    SpaceX Starlink
+                </div>
+            </div>
+        </div>
+        <div id="map">
+
+        </div>        
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

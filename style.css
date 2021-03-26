@@ -3,7 +3,6 @@ body{
     display: grid;
     grid-template-rows: 1fr 2fr;
     height: 100vh;
-    overflow: hidden;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -118,6 +117,9 @@ main{
 @media screen and (max-width: 768px){
     body{
         grid-template-rows: 1fr 2fr;
+    }
+    header{
+        min-height: 200px;
     }
     .search-bar-input input{
         width: 15em;

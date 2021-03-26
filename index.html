@@ -25,7 +25,7 @@
         </div>
         <div class="search-bar">
             <div class="search-bar-input">
-                <input type="search" placeholder="Search for any IP address or domain">
+                <input type="search" placeholder="Search for any IP address or domain" id="ip-address-value">
             </div>
             <div class="search-bar-icon">
                 <span><i class="fas fa-angle-right"></i></span>
@@ -39,7 +39,7 @@
                     <span>IP Address</span>
                 </div>
                 <div class="di-value">
-                    192.212.157.412
+                    <span id="ip-value"></span>
                 </div>
             </div>
             <div class="location">
@@ -47,7 +47,7 @@
                     <span>Location</span>
                 </div>
                 <div class="di-value">
-                    Brooklyn, NY 100001
+                    <span id="location-value"></span>
                 </div>
             </div>
             <div class="timezone">
@@ -55,7 +55,7 @@
                     <span>Timezone</span>
                 </div>
                 <div class="di-value">
-                    UTC-05:00
+                    <span id="timezone-value"></span>
                 </div>
             </div>
             <div class="isp">
@@ -63,7 +63,7 @@
                     <span>ISP</span>
                 </div>
                 <div class="di-value">
-                    SpaceX Starlink
+                    <span id="isp-value"></span>
                 </div>
             </div>
         </div>
@@ -72,6 +72,7 @@
         </div>        
     </main>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 </html>

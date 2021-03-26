@@ -142,4 +142,7 @@ main{
     .display-info>div:not(:last-child)::after {
         display: none;
     }
+    #map-container{
+        height: 67vh;
+    }
 }

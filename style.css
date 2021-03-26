@@ -125,6 +125,9 @@ main{
     .display-info{
         display: flex;
         flex-direction: column;
+        transform: none;
+        margin-top: -28%;
+        margin-left: 13%;
     }
     .display-info>div{
         display: flex;

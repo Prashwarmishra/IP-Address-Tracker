@@ -16,6 +16,10 @@ header img{
     width: 100%;
 }
 
+.page-heading{
+    height: 7vh;
+}
+
 .page-heading h1{
     text-align: center;
     color: white;
@@ -104,7 +108,9 @@ main{
     font-size: 1.5em;
     letter-spacing: 2px;
 }
-
+#map-container{
+    height: 100%;
+}
 #map{
     height: 100%;
 }
